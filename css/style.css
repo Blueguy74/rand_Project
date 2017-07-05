@@ -1,0 +1,253 @@
+
+body {
+    font: 400 15px 'Open Sans', sans-serif;
+    line-height: 1.8;
+    color: #818181;
+    overflow-x: hidden;
+}
+h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.jumbotron {
+    background-color: #52ab92;
+    color: #fff;
+    padding: 100px 25px;
+
+    font-family: Ubuntu, sans-serif;
+    margin-bottom: 0px;
+}
+.jumbotron h1{
+    font-size: 57px;
+ }
+.jumbotron p{
+    font-size: 23px;
+}
+.container-fluid {
+    padding: 0px 50px;
+
+}
+.bg-grey {
+    background-color: #f6f6f6;
+}
+.logo-small {
+   height:120px;
+    width: auto;
+}
+.testimonial{
+    position: relative;
+}
+.formy p{
+   font-size: 11px;
+}
+.formy label{
+    font-weight: 100;
+    font-size: 15px;
+    padding: 10px 0px;
+
+}
+.btn-orange{
+    background-color: #ef7126;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 10px 0px;
+}
+/* For clients Section*/
+.clnts {
+    width: 150px;
+    padding-top: 5px;
+}
+.navbar {
+    margin: 0px;
+    background-color: #52ab92;
+    z-index: 9999;
+    border: 0;
+    line-height: 1.42857143 !important;
+    font-size: large;
+    color: white;
+    border-radius: 0;
+
+}
+.navbar-brand {
+    padding-top: 25px;
+}
+
+footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    }
+.navbar-text{
+    margin-right: 0px;
+    font-size: 20px;
+}
+.tel{
+    max-width: 30px;
+}
+
+#services{
+    text-align: center;
+}
+#services h4{
+    font-size: 15px;
+}
+#services p{
+    font-size: 13px;
+}
+/* For transition effect in services*/
+.slideanim {visibility:hidden;}
+.slide {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+}
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(70%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+
+.foottab{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.foottabr{
+    padding: 0px 50px;
+}
+.footlogo{
+    padding-left:75px ;
+}
+.foot{
+    padding: 20px 0px;
+    font-size: 11px;
+}
+
+ a:link, a:hover, a:active,a:visited{
+    text-decoration: none;
+     color:#818181 ;
+}
+
+/* Testimonials*/
+.bq3 {
+
+    background: url('../img/comma1.png') top left no-repeat;
+    padding-left: 55px;
+    line-height: 18px;
+    color: #575757;
+}
+.bq3 p {
+    padding-right: 35px;
+    line-height: 18px;
+    background: url('../img/comma2.png') bottom right no-repeat;
+    padding-bottom: 15px;
+    color: #333;
+    font-size: 12px;
+}
+.bq3 h3{
+    font-size: 16px;
+
+}
+.bq3 .media-body{
+    width: auto;
+}
+
+.txt-grey{
+    color:#a5a5a5
+}
+
+/* Media Queries*/
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+    .btn-lg {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+   .jumbotron{
+       padding-top: 150px;
+   }
+   .row{
+       margin-left: 0px;
+       margin-right: 0px;
+   }
+    .btn-orange{
+        font-size: 12px;
+
+    }
+    .container-fluid{
+     padding: 0px;
+    }
+    .clnts{
+     width: 100px;
+     }
+
+}
+
+@media screen and (min-width: 768px) {
+    .formy {
+        position: absolute;
+        top: -70px;
+        right: 0px;
+    }
+    .formy label {
+        padding:0px;
+    }
+    .jumbotron{
+        padding-bottom: 50px;
+    }
+    .container-fluid{
+        padding: 0px 50px;
+    }
+}
+
+@media screen and (max-width: 468px) {
+    .container-fluid{
+        padding: 0px;
+        text-align: center;
+    }
+    .number{
+        padding-top: 76px;
+    }
+    .footlogo{
+        visibility: hidden;
+    }
+    .formy{
+        text-align: left;
+    }
+}
+@media screen and (min-width: 1080px){
+    .formy {
+        position: absolute;
+        top: -180px;
+        right: 0px;
+    }
+}

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Hiver</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script src="js/validation.js"></script>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60" onload="document.registration.email.focus();">
+
+<!-- Container (Navigation Bar) -->
+<nav class="navbar navbar-fixed-top container-fluid row">
+
+             <div class="col-sm-6">
+                 <a class="navbar-brand" href="#myPage"><img src="img/logo.png"></a>
+             </div>
+             <br>
+             <div class="col-sm-6 number">
+                 <span class="navbar-text navbar-right"> <img class="tel" src="img/tel.png">  +91-650-242-9081</span>
+             </div>
+
+</nav>
+
+
+<!-- Banner Text -->
+<div class="jumbotron text-left">
+    <div class="container-fluid">
+        <h1>Wow Your Customers</h1>
+        <p>with exceptional customer service. Try Hiver!</p>
+    </div>
+</div>
+
+<!-- Container (Testimonial and Form) -->
+<div class="container-fluid bg-grey">
+    <div class="row bg-grey testimonial">
+        <br>
+        <div class="col-sm-7 col-md-7 col-lg-9">
+            <br>
+            <div class="bq3">
+                <div class="media">
+                    <div class="media-left media-middle">
+                        <img src="img/testguy.png" class="media-object img-circle" style="width:80px">
+                    </div>
+                    <div class="media-body">
+                        <h3 class="txt-grey "><em>Hiver is hands down the best way for us to collaborate on Gmail. Managing our scheduling has never been easier.</em></h3>
+                        <br>
+                        <p>Christian Leybold - (General Partner, eVentures.vc)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-5 col-md-5 col-lg-3 formy"><!-- Container (Form with simple Validation) -->
+            <div class="well">
+                <form  id="registration" name="registration" onsubmit="return formValidation();">
+                    <div class="form-group">
+                        <label class="txt-grey" for="email"><i class="fa fa-envelope"></i> Enter email:</label>
+                        <input type="text" class="form-control inputlg" id="email">
+                    </div>
+                    <div class="form-group">
+                        <label class="txt-grey" for="phone"><i class="fa fa-phone-square"></i> Enter phone:</label>
+                        <input type="text" class="form-control inputlg" id="phone">
+                    </div>
+                    <button type="submit" name="submit" value="submit" class="btn btn-block btn-orange ">GET STARTED FOR FREE</button>
+                </form>
+            </div>
+            <p class="txt-grey">By signing up, you agree to our T&C and Privacy Policy.</p>
+        </div>
+    </div>
+    <br>
+    <br>
+</div>
+
+<!-- Container (Services Section) -->
+<div id="services" class="container-fluid text-center">
+    <br>
+    <br>
+    <div class="row slideanim">
+        <div class="col-sm-3">
+            <span> <img class="logo-small" src="img/service1.png"></span>
+            <h4 class="txt-grey">QUICK SYNC</h4>
+            <p class="txt-grey">Guarantee exceptional support through phone, email, your website and even Facebook and Twitter. All from
+                one place!</p>
+        </div>
+        <div class="col-sm-3">
+            <span ><img class="logo-small" src="img/service2.png"></span>
+            <h4 class="txt-grey">SIMPLE MANAGEMENT</h4>
+            <p class="txt-grey">Reduce support load by helping
+                customers help themselves to FAQs and discussions on your self-service
+                portal.</p>
+        </div>
+        <div class="col-sm-3">
+            <span><img class="logo-small" src="img/service3.png"></span>
+            <h4 class="txt-grey">TASKS AND NOTIFICATIONS</h4>
+            <p class="txt-grey">Get your Sales & Support teams work together. Let go of those syncing issues; integrate 'em like never before.</p>
+        </div>
+        <div class="col-sm-3">
+            <span><img class="logo-small" src="img/service4.png"></span>
+            <h4 class="txt-grey">AUTOMATIC REPLY SYNC</h4>
+            <p class="txt-grey">No hidden charges, no under the belt add ons, your monthly cost with the Sprout plan is exactly $0.</p>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+</div>
+<!-- Container (Clients Section) -->
+<div id="clients" class="container-fluid text-center bg-grey">
+    <br>
+    <div class="row ">
+        <div class="col-sm-2">
+            <span> <img class="clnts" src="img/clts1.png"></span>
+        </div>
+        <div class="col-sm-2">
+            <span> <img class="clnts" src="img/clts2.png"></span>
+        </div>
+        <div class="col-sm-2">
+            <span> <img class="clnts" src="img/clts3.png"></span>
+        </div>
+        <div class="col-sm-2">
+            <span> <img class="clnts" src="img/clts4.png"></span>
+        </div>
+        <div class="col-sm-2">
+            <span> <img class="clnts" src="img/clts5.png"></span>
+        </div>
+        <div class="col-sm-2">
+            <span> <img class="clnts" src="img/clts6.png"></span>
+        </div>
+    </div>
+    <br>
+
+</div>
+
+
+
+
+<!-- Container (Footer) -->
+<footer class="container-fluid text-center foot ">
+    <br>
+    <div class="row">
+        <div class="col-sm-6">
+            <span class="pull-left footlogo foottab"><img src="img/logo-small.png"></span>
+            <span class="pull-left foottab"><p class="txt-grey">&copy;2016 Copyright Hiver. All Rights Reserved </p></span>
+            <span class="pull-left foottab">|</span>
+            <span class="pull-left foottab"><a href="#"> Termes of Service </a></span>
+            <span class="pull-left foottab">|</span>
+            <span class="pull-left foottab"><a href="#"> Privacy Policy </a></span>
+        </div>
+        <div class="col-sm-6">
+            <span class="pull-right foottabr"><p class="txt-grey">Simple, powerful collaboration with Shared Gmail Labels</p></span>
+        </div>
+    </div>
+    <br>
+</footer>
+
+<script>
+    $(document).ready(function(){
+        // Add smooth scrolling to all links in navbar + footer link
+        $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+                // Prevent default anchor click behavior
+                event.preventDefault();
+
+                // Store hash
+                var hash = this.hash;
+
+                // Using jQuery's animate() method to add smooth page scroll
+                // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 900, function(){
+
+                    // Add hash (#) to URL when done scrolling (default click behavior)
+                    window.location.hash = hash;
+                });
+            } // End if
+        });
+
+        $(window).scroll(function() {
+            $(".slideanim").each(function(){
+                var pos = $(this).offset().top;
+
+                var winTop = $(window).scrollTop();
+                if (pos < winTop + 600) {
+                    $(this).addClass("slide");
+                }
+            });
+        });
+    })
+</script>
+
+</body>
+</html>
